@@ -13,11 +13,13 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            PegawaiSeeder::class, // Uncomment if you want to seed Pegawai data
-            ProdukSeeder::class,  // Uncomment if you want to seed Produk data
-            KeranjangBelanjaSeeder::class, // Uncomment if you want to seed Keranjang Belanja data
-            PageCounterSeeder::class, // Uncomment if you want to seed Page Counter data
-            KaryawanSeeder::class, // Add this line
+            // Pastikan seeder lain yang kamu butuhkan juga ada di sini
+            PegawaiSeeder::class,
+            ProdukSeeder::class,
+            KeranjangBelanjaSeeder::class,
+            PageCounterSeeder::class,
+            KaryawanSeeder::class,
+            ChatSeeder::class, // Tambahkan baris ini
         ]);
     }
 }

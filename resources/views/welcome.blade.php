@@ -302,6 +302,9 @@
                 <a class="nav-link" href="{{ url('/karyawan') }}"><i class="fas fa-user-tie"></i> Latihan 3</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{ url('/latihan4') }}"><i class="fas fa-comment-dots"></i> Latihan 4</a> {{-- ADD THIS LINE --}}
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-file-alt"></i> EAS</a>
             </li>
         </ul>

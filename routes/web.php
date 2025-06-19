@@ -10,6 +10,7 @@ use App\Http\Controllers\ProdukController;
 use App\Http\Controllers\KeranjangBelanjaController;
 use App\Http\Controllers\PageCounterController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\ChatController;
 //import java.io;
 
 /*
@@ -83,3 +84,4 @@ Route::get('/latihan2', PageCounterController::class);
 
 Route::resource('karyawan', KaryawanController::class);
 
+Route::get('/latihan4', [ChatController::class, 'index'])->name('latihan4.index');
