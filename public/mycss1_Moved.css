@@ -1,0 +1,19 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  p{
+    text-align: justify;
+  }
+
+  .formatheader {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .roundedimage {
+    border-radius: 10px;
+  }
