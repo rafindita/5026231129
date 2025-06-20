@@ -11,6 +11,7 @@ use App\Http\Controllers\KeranjangBelanjaController;
 use App\Http\Controllers\PageCounterController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\ChatController;
+use App\Http\Controllers\easController;
 //import java.io;
 
 /*
@@ -85,3 +86,5 @@ Route::get('/latihan2', PageCounterController::class);
 Route::resource('karyawan', KaryawanController::class);
 
 Route::get('/latihan4', [ChatController::class, 'index'])->name('latihan4.index');
+
+Route::resource('eas', easController::class);

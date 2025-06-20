@@ -43,10 +43,4 @@
             @endforelse
         </tbody>
     </table>
-
-    {{-- Pagination --}}
-    <div class="d-flex justify-content-center">
-        {{ $keranjangBelanjas->links('pagination::bootstrap-4') }}
-    </div>
-
 @endsection

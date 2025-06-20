@@ -23,7 +23,7 @@ class ChatController extends Controller
             // Definisikan mapping emoticon ke nama file gambar
             // Sesuaikan dengan nama file gambar yang kamu punya di public/img/emoticons/
             $emoticonsMap = [
-                ':))' => '1.png',
+                ':)' => '1.png',
                 ':3'  => '2.png',
                 ':P'  => '3.png',
                 ':C'  => '4.png',

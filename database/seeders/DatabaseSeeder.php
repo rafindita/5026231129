@@ -19,7 +19,9 @@ class DatabaseSeeder extends Seeder
             KeranjangBelanjaSeeder::class,
             PageCounterSeeder::class,
             KaryawanSeeder::class,
-            ChatSeeder::class, // Tambahkan baris ini
+            ChatSeeder::class, 
+            easSeeder::class, 
+            // Tambahkan baris ini
         ]);
     }
 }

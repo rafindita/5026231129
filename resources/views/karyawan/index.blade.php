@@ -41,7 +41,4 @@
     <div class="d-flex justify-content-between align-items-center mt-4">
         {{-- "Tambah Data" button below the table  --}}
         <a class="btn btn-primary" href="{{ route('karyawan.create') }}"><i class="fas fa-plus"></i> Tambah Data</a>
-        {{-- Pagination --}}
-        {{ $karyawans->links('pagination::bootstrap-4') }}
-    </div>
 @endsection
